@@ -6,3 +6,10 @@
 1405406186012	Move file
 1405443091311	Rename field 'SERVER_PROXY'
 1405443100085	Rename field 'CLIENT_PROXY'
+1405771148490	Convert local variable 'configuration' to field
+1405771300021	Move compilation unit
+1405771508759	Extract method 'loadConfigurations'
+1405776410174	Rename type 'ItemJoyStick'
+1405777880580	Rename resource 'joystick.png'
+1405778069886	Rename package 'assets.remotecontroldrone.textures.items'
+1405778230701	Rename package 'assets.remotecontroldrone.textures.item'

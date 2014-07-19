@@ -5,7 +5,11 @@
  R4wk, ZeuX, IngisKahn      
  MCP Data version : unknown
 ****************************
+:eclipseClasspath
+:eclipseJdt
+:eclipseProject
+:eclipse
 
 BUILD SUCCESSFUL
 
-Total time: 9.67 secs
+Total time: 8.84 secs
