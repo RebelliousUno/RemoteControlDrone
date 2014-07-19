@@ -1,0 +1,6 @@
+package com.rebelliousuno.remotecontroldrone.reference;
+
+public class Reference {
+	public static final String MOD_ID = "remoteControlDrone";
+	public static final String NAME = "Remote Control Drone";
+}

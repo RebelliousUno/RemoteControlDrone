@@ -1,0 +1,5 @@
+package com.rebelliousuno.remotecontroldrone.util;
+
+public class LogHelper {
+
+}

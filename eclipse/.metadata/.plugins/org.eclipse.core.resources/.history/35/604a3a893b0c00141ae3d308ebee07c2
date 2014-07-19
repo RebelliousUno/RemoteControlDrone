@@ -1,0 +1,29 @@
+package com.rebelliousuno.remotecontroldrone;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid="remoteControlDrone", name="Remote Control Drone", version="1.7.10-1.0")
+public class RemoteControlDrone {
+	
+	@Mod.Instance("remoteControlDrone")
+	public static RemoteControlDrone instance; 
+
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent evt){
+		//Items And Blocks 
+	}
+	
+	@Mod.EventHandler
+	public void init(FMLInitializationEvent evt){
+		//GUI Tile Entities Recipes
+	}
+	
+	@Mod.EventHandler
+	public void postInit(FMLPostInitializationEvent evt){
+		//Wrap Up
+	}
+	
+}

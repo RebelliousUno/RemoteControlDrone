@@ -1,6 +1,46 @@
-[20:25:30] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[20:25:34] [Server thread/INFO]: Loading properties
-[20:25:34] [Server thread/WARN]: server.properties does not exist
-[20:25:34] [Server thread/INFO]: Generating new properties file
-[20:25:34] [Server thread/WARN]: Failed to load eula.txt
-[20:25:34] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[18:05:29] [main/INFO]: Setting user: ForgeDevName
+[18:05:30] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:05:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Remote Control Drone
+[18:05:35] [Sound Library Loader/INFO]: Sound engine started
+[18:05:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:05:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:05:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Remote Control Drone
+[18:05:38] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:05:38] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:05:39] [Sound Library Loader/INFO]: Sound engine started
+[18:07:53] [Client thread/INFO]: Selecting effect minecraft:shaders/post/notch.json
+[18:07:53] [Client thread/WARN]: Failed to load shader: minecraft:shaders/post/notch.json
+net.minecraft.client.util.JsonException: Invalid shaders/program/notch.json: null
+	at net.minecraft.client.util.JsonException.func_151379_a(JsonException.java:62) ~[JsonException.class:?]
+	at net.minecraft.client.shader.ShaderManager.<init>(ShaderManager.java:167) ~[ShaderManager.class:?]
+	at net.minecraft.client.shader.Shader.<init>(Shader.java:30) ~[Shader.class:?]
+	at net.minecraft.client.shader.ShaderGroup.addShader(ShaderGroup.java:346) ~[ShaderGroup.class:?]
+	at net.minecraft.client.shader.ShaderGroup.func_152764_a(ShaderGroup.java:170) ~[ShaderGroup.class:?]
+	at net.minecraft.client.shader.ShaderGroup.func_152765_a(ShaderGroup.java:106) ~[ShaderGroup.class:?]
+	at net.minecraft.client.shader.ShaderGroup.<init>(ShaderGroup.java:54) ~[ShaderGroup.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.activateNextShader(EntityRenderer.java:227) [EntityRenderer.class:?]
+	at net.minecraft.client.gui.GuiOptions.actionPerformed(GuiOptions.java:100) [GuiOptions.class:?]
+	at net.minecraft.client.gui.GuiScreen.mouseClicked(GuiScreen.java:254) [GuiScreen.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:346) [GuiScreen.class:?]
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:315) [GuiScreen.class:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1731) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1039) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:961) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_60]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_60]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_60]
+	at GradleStart.bounce(GradleStart.java:95) [start/:?]
+	at GradleStart.startClient(GradleStart.java:88) [start/:?]
+	at GradleStart.main(GradleStart.java:56) [start/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.shader.ShaderManager.<init>(ShaderManager.java:149) ~[ShaderManager.class:?]
+	... 27 more
+[18:08:26] [Client thread/INFO]: Stopping!

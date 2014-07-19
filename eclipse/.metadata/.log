@@ -340,3 +340,433 @@ Caused by: java.io.IOException: The process cannot access the file because anoth
 	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:100)
 	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:188)
 	... 3 more
+
+!ENTRY org.eclipse.jface 2 0 2014-07-14 20:43:09.718
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-14 20:43:09.718
+!MESSAGE A conflict occurred for ALT+ARROW_DOWN:
+Binding(ALT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineDown,Move Lines Down,
+		Moves the selected lines down,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4185571,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.goToNextUnread,Go To Next Unread Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39579072,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-14 20:43:09.718
+!MESSAGE A conflict occurred for INSERT:
+Binding(INSERT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.toggleOverwrite,Toggle Overwrite,
+		Toggle overwrite mode,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59916fd0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(INSERT,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.new.local.task,New Local Task,
+		,
+		Category(org.eclipse.mylyn.tasks.ui.commands,Task Repositories,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b43eea0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-14 20:43:09.718
+!MESSAGE A conflict occurred for ALT+ARROW_UP:
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineUp,Move Lines Up,
+		Moves the selected lines up,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@48e7792f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.goToPreviousUnread,Go To Previous Unread Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c12300b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SESSION 2014-07-14 20:47:42.650 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-14 20:48:06.629
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-14 20:48:06.630
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Matt'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-07-14 20:53:43.114 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-07-14 20:53:48.424
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-14 20:54:05.921
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-14 20:54:05.922
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Matt'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springsource.ide.eclipse.gradle.core 4 0 2014-07-14 20:56:16.603
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1332)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1376)
+	at org.springsource.ide.eclipse.gradle.core.util.NatureUtils.ensure(NatureUtils.java:44)
+	at org.springsource.ide.eclipse.gradle.core.GradleProject.convertToGradleProject(GradleProject.java:688)
+	at org.springsource.ide.eclipse.gradle.ui.actions.ConvertToGradleProjectActionDelegate$1.doit(ConvertToGradleProjectActionDelegate.java:54)
+	at org.springsource.ide.eclipse.gradle.core.util.GradleRunnable$1.run(GradleRunnable.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: OK
+Contains: E:\Minecraft Dev\Minecraft\1.7\RemoteControlDrone overlaps the workspace location: E:\Minecraft Dev\Minecraft\1.7\RemoteControlDrone\eclipse
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2014-07-14 20:56:16.604
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2014-07-14 20:56:16.604
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2014-07-14 20:56:16.604
+!MESSAGE E:\Minecraft Dev\Minecraft\1.7\RemoteControlDrone overlaps the workspace location: E:\Minecraft Dev\Minecraft\1.7\RemoteControlDrone\eclipse
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-07-14 21:02:37.482
+!MESSAGE Internal Error
+!STACK 0
+java.lang.Exception: Illegal ASTNode positions: previousEnd=697, childStart=696, element==Minecraft/C:\/Users\/Matt\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.7.10-10.13.0.1180\/forgeSrc-1.7.10-10.13.0.1180.jar<cpw.mods.fml.common(Mod.class[Mod, Javadoc:
+/**
+ * This defines a Mod to FML.
+ * Any class found with this annotation applied will be loaded as a Mod. The instance that is loaded will
+ * represent the mod to other Mods in the system. It will be sent various subclasses of {@link FMLEvent}
+ * at pre-defined times during the loading of the game, based on where you have applied the {@link EventHandler}
+ * annotation.
+ *
+ * <p>This is a simple example of a Mod. It has the modId of "MyModId", the name of "My example mod", it is
+ * version 1.0, and depends on FML being loaded.
+ * <pre>{@code
+ * package mymod;
+ * // Declare that this is a mod with modId "MyModId", name "My example mod", version "1.0" and dependency on FML.
+ * {@literal @}Mod(modId="MyModId",name="My example mod",version="1.0",dependencies="required-after:FML")
+ * public class MyMod {
+ *      // Populate this field with the instance of the mod created by FML
+ *      {@literal @}Instance("MyModId")
+ *      public MyMod instance;
+ *
+ *      // Mark this method for receiving an {@link FMLEvent} (in this case, it's the {@link FMLPreInitializationEvent})
+ *      {@literal @}EventHandler public void preInit(FMLPreInitializationEvent event)
+ *      {
+ *          // Do stuff in pre-init phase (read config, create blocks and items, register them)
+ *      }
+ * }
+ * }
+ * </pre>
+ *
+ * @author cpw
+ *
+ */
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1145)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1133)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:874)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:729)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:614)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:496)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-07-14 21:13:44.528
+!MESSAGE Internal Error
+!STACK 0
+java.lang.Exception: Illegal ASTNode positions: previousEnd=697, childStart=696, element==Minecraft/C:\/Users\/Matt\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.7.10-10.13.0.1180\/forgeSrc-1.7.10-10.13.0.1180.jar<cpw.mods.fml.common(Mod.class[Mod, Javadoc:
+/**
+ * This defines a Mod to FML.
+ * Any class found with this annotation applied will be loaded as a Mod. The instance that is loaded will
+ * represent the mod to other Mods in the system. It will be sent various subclasses of {@link FMLEvent}
+ * at pre-defined times during the loading of the game, based on where you have applied the {@link EventHandler}
+ * annotation.
+ *
+ * <p>This is a simple example of a Mod. It has the modId of "MyModId", the name of "My example mod", it is
+ * version 1.0, and depends on FML being loaded.
+ * <pre>{@code
+ * package mymod;
+ * // Declare that this is a mod with modId "MyModId", name "My example mod", version "1.0" and dependency on FML.
+ * {@literal @}Mod(modId="MyModId",name="My example mod",version="1.0",dependencies="required-after:FML")
+ * public class MyMod {
+ *      // Populate this field with the instance of the mod created by FML
+ *      {@literal @}Instance("MyModId")
+ *      public MyMod instance;
+ *
+ *      // Mark this method for receiving an {@link FMLEvent} (in this case, it's the {@link FMLPreInitializationEvent})
+ *      {@literal @}EventHandler public void preInit(FMLPreInitializationEvent event)
+ *      {
+ *          // Do stuff in pre-init phase (read config, create blocks and items, register them)
+ *      }
+ * }
+ * }
+ * </pre>
+ *
+ * @author cpw
+ *
+ */
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1145)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1133)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:874)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:729)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:614)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:496)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-07-14 21:19:03.713
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-07-14 21:19:03.713
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:19:03.713
+!MESSAGE Software being installed: Eclipse Integration Commons 3.6.0.201407080544-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.6.0.201407080544-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:19:03.713
+!MESSAGE Missing requirement: SpringSource Tool Suite Workspace Configuration 3.6.0.201407080544-RELEASE (org.springsource.ide.eclipse.commons.configurator 3.6.0.201407080544-RELEASE) requires 'bundle org.springframework.core [4.0.0,4.1.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-14 21:19:03.713
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:19:03.713
+!MESSAGE From: Eclipse Integration Commons 3.6.0.201407080544-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.6.0.201407080544-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:19:03.713
+!MESSAGE To: org.springsource.ide.eclipse.commons.configurator [3.6.0.201407080544-RELEASE]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-07-14 21:19:03.717
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-07-14 21:19:03.717
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:19:03.717
+!MESSAGE Software being installed: Eclipse Integration Commons 3.6.0.201407080544-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.6.0.201407080544-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:19:03.717
+!MESSAGE Missing requirement: SpringSource Tool Suite Workspace Configuration 3.6.0.201407080544-RELEASE (org.springsource.ide.eclipse.commons.configurator 3.6.0.201407080544-RELEASE) requires 'bundle org.springframework.core [4.0.0,4.1.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-14 21:19:03.717
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:19:03.717
+!MESSAGE From: Eclipse Integration Commons 3.6.0.201407080544-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.6.0.201407080544-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:19:03.717
+!MESSAGE To: org.springsource.ide.eclipse.commons.configurator [3.6.0.201407080544-RELEASE]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-07-14 21:20:02.045
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2014-07-14 21:20:02.045
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2014-07-14 21:20:02.045
+!MESSAGE "Gradle IDE" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-07-14 21:20:02.045
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:02.045
+!MESSAGE Software being installed: Eclipse Integration Commons 3.6.0.201407080544-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.6.0.201407080544-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:02.045
+!MESSAGE Missing requirement: SpringSource Tool Suite Workspace Configuration 3.6.0.201407080544-RELEASE (org.springsource.ide.eclipse.commons.configurator 3.6.0.201407080544-RELEASE) requires 'bundle org.springframework.core [4.0.0,4.1.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-14 21:20:02.045
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:02.045
+!MESSAGE From: Eclipse Integration Commons 3.6.0.201407080544-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.6.0.201407080544-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:02.045
+!MESSAGE To: org.springsource.ide.eclipse.commons.configurator [3.6.0.201407080544-RELEASE]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-07-14 21:20:02.047
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2014-07-14 21:20:02.047
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2014-07-14 21:20:02.047
+!MESSAGE "Gradle IDE" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-07-14 21:20:02.047
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:02.047
+!MESSAGE Software being installed: Eclipse Integration Commons 3.6.0.201407080544-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.6.0.201407080544-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:02.047
+!MESSAGE Missing requirement: SpringSource Tool Suite Workspace Configuration 3.6.0.201407080544-RELEASE (org.springsource.ide.eclipse.commons.configurator 3.6.0.201407080544-RELEASE) requires 'bundle org.springframework.core [4.0.0,4.1.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-14 21:20:02.047
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:02.047
+!MESSAGE From: Eclipse Integration Commons 3.6.0.201407080544-RELEASE (org.springsource.ide.eclipse.commons.feature.group 3.6.0.201407080544-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:02.047
+!MESSAGE To: org.springsource.ide.eclipse.commons.configurator [3.6.0.201407080544-RELEASE]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-07-14 21:20:11.499
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2014-07-14 21:20:11.499
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2014-07-14 21:20:11.499
+!MESSAGE "Gradle IDE" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-07-14 21:20:11.499
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:11.499
+!MESSAGE Software being installed: Spring UAA Integration (optional) 3.6.0.201407080544-RELEASE (org.springframework.ide.eclipse.uaa.feature.feature.group 3.6.0.201407080544-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:11.499
+!MESSAGE Missing requirement: Spring UAA Integration 3.6.0.201407080544-RELEASE (org.springframework.ide.eclipse.uaa 3.6.0.201407080544-RELEASE) requires 'package org.springframework.uaa.client 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-14 21:20:11.499
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:11.499
+!MESSAGE From: Spring UAA Integration (optional) 3.6.0.201407080544-RELEASE (org.springframework.ide.eclipse.uaa.feature.feature.group 3.6.0.201407080544-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:11.499
+!MESSAGE To: org.springframework.ide.eclipse.uaa [3.6.0.201407080544-RELEASE]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2014-07-14 21:20:11.500
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2014-07-14 21:20:11.500
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2014-07-14 21:20:11.500
+!MESSAGE "Gradle IDE" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2014-07-14 21:20:11.500
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:11.500
+!MESSAGE Software being installed: Spring UAA Integration (optional) 3.6.0.201407080544-RELEASE (org.springframework.ide.eclipse.uaa.feature.feature.group 3.6.0.201407080544-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:11.500
+!MESSAGE Missing requirement: Spring UAA Integration 3.6.0.201407080544-RELEASE (org.springframework.ide.eclipse.uaa 3.6.0.201407080544-RELEASE) requires 'package org.springframework.uaa.client 0.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-07-14 21:20:11.500
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:11.500
+!MESSAGE From: Spring UAA Integration (optional) 3.6.0.201407080544-RELEASE (org.springframework.ide.eclipse.uaa.feature.feature.group 3.6.0.201407080544-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-07-14 21:20:11.500
+!MESSAGE To: org.springframework.ide.eclipse.uaa [3.6.0.201407080544-RELEASE]
+
+!ENTRY org.eclipse.egit.core 4 0 2014-07-14 23:44:42.907
+!MESSAGE An exception occurred during push on URI https://github.com/RebelliousUno/RemoteControlDrone.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1170)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:167)
+	at org.eclipse.egit.ui.internal.push.SimpleConfigurePushDialog$17.run(SimpleConfigurePushDialog.java:583)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:527)
+	at org.eclipse.egit.ui.internal.push.SimpleConfigurePushDialog.buttonPressed(SimpleConfigurePushDialog.java:574)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.eclipse.egit.ui.internal.push.PushResultDialog$2.run(PushResultDialog.java:100)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:382)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:236)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+!SESSION 2014-07-15 07:22:29.853 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-15 07:22:39.084
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-15 07:22:39.085
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Matt'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-07-15 18:01:07.438
+!MESSAGE Failed to add resource to index
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to add resource to index
+	at org.eclipse.egit.core.op.AddToIndexOperation.execute(AddToIndexOperation.java:81)
+	at org.eclipse.egit.ui.internal.actions.AddToIndexActionHandler$1.run(AddToIndexActionHandler.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of add command
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:212)
+	at org.eclipse.egit.core.op.AddToIndexOperation.execute(AddToIndexOperation.java:78)
+	... 2 more
+Caused by: java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:302)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:100)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:188)
+	... 3 more
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2014-07-15 18:01:07.439
+!MESSAGE Failed to add resource to index
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of add command
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:212)
+	at org.eclipse.egit.core.op.AddToIndexOperation.execute(AddToIndexOperation.java:78)
+	at org.eclipse.egit.ui.internal.actions.AddToIndexActionHandler$1.run(AddToIndexActionHandler.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:302)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:100)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:188)
+	... 3 more
