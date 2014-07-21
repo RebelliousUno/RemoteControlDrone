@@ -1,2 +1,3 @@
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Post Ep 8</message>\r\n<message>Post Episode 8</message>\r\n<message>Initial Commit</message>\r\n<message>Initial Commit&\#x0A;</message>\r\n<message>Initial Setup Commit</message>\r\n</messages>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Adding More Blocks/Items</message>\r\n<message>adding more Blocks/Items</message>\r\n<message>Adding further blocks/items </message>\r\n<message>Post Ep 8</message>\r\n<message>Post Episode 8</message>\r\n<message>Initial Commit</message>\r\n<message>Initial Commit&\#x0A;</message>\r\n<message>Initial Setup Commit</message>\r\n</messages>
 eclipse.preferences.version=1
+show_initial_config_dialog=false
