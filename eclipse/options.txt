@@ -1,4 +1,4 @@
-invertYMouse:false
+invertYMouse:true
 mouseSensitivity:0.5
 fov:0.0
 gamma:0.0
@@ -11,7 +11,7 @@ anaglyph3d:false
 advancedOpengl:false
 maxFps:120
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
 clouds:true

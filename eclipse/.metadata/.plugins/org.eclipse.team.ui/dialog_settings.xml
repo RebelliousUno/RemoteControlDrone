@@ -4,9 +4,9 @@
 		<item value="false" key="linkWithEditor"/>
 		<item value="1405770404434" key="lastactiveparticipant_sec_id"/>
 		<item value="org.eclipse.egit.ui.modelCompareParticipant" key="lastactiveparticipant_id"/>
-		<section name="org.eclipse.egit.ui.modelCompareParticipant.1405770404434">
-		</section>
 		<section name="org.eclipse.egit.ui.modelCompareParticipant.1405366510603">
+		</section>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1405770404434">
 		</section>
 	</section>
 </section>

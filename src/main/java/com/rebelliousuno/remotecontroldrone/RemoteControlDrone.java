@@ -1,6 +1,7 @@
 package com.rebelliousuno.remotecontroldrone;
 
 import com.rebelliousuno.remotecontroldrone.handlers.ConfigurationHandler;
+import com.rebelliousuno.remotecontroldrone.init.ModBlocks;
 import com.rebelliousuno.remotecontroldrone.init.ModItems;
 import com.rebelliousuno.remotecontroldrone.proxy.IProxy;
 import com.rebelliousuno.remotecontroldrone.reference.Reference;
@@ -30,6 +31,7 @@ public class RemoteControlDrone {
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		LogHelper.info("Pre Init Complete");
 		ModItems.init();
+		ModBlocks.init();
 	}
 	
 	@Mod.EventHandler

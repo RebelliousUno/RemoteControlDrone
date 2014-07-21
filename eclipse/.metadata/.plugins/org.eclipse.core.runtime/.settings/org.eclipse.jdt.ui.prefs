@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="org.apache.logging.log4j.Level"/></lhs><lhs name\="com.rebelliousuno.remotecontroldrone.block.BlockRCD"><rhs name\="com.rebelliousuno.remotecontroldrone.block.ControlCenter"/></lhs><lhs name\="net.minecraft.block.Block"><rhs name\="com.rebelliousuno.remotecontroldrone.block.ControlCenter"/></lhs><lhs name\="com.rebelliousuno.remotecontroldrone.block.ControlCenter"><rhs name\="com.rebelliousuno.remotecontroldrone.block.ControlCenter"/></lhs><lhs name\="net.minecraft.item.Item"><rhs name\="com.rebelliousuno.remotecontroldrone.item.Battery"/><rhs name\="com.rebelliousuno.remotecontroldrone.item.PlugSocket"/></lhs><lhs name\="com.rebelliousuno.remotecontroldrone.item.ItemRCD"><rhs name\="com.rebelliousuno.remotecontroldrone.item.PlugSocket"/></lhs></history>
 content_assist_number_of_computers=13
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
