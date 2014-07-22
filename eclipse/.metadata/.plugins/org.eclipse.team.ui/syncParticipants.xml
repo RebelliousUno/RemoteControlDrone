@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <syncparticipants>
-<participant displayName="Git (Minecraft)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1405967920689">
+<participant displayName="Git (Minecraft)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1406047950734">
 <data forceFetch="false" root="false">
 <org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="Minecraft" startupAction="none">
 <org.eclipse.team.ui.MODEL_PARTICIPANT_REFRESH_SCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>

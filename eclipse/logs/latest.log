@@ -1,8 +1,8 @@
-[19:29:17] [main/INFO]: Setting user: ForgeDevName
-[19:29:18] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:29:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Remote Control Drone
-[19:29:22] [Sound Library Loader/INFO]: Sound engine started
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/coalEngine.png
+[21:39:10] [main/INFO]: Setting user: ForgeDevName
+[21:39:11] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:39:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Remote Control Drone
+[21:39:16] [Sound Library Loader/INFO]: Sound engine started
+[21:39:17] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/coalEngine.png
 java.io.FileNotFoundException: remotecontroldrone:textures/blocks/coalEngine.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -27,7 +27,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/blocks/coalEngine.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/wiring.png
+[21:39:17] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/wiring.png
 java.io.FileNotFoundException: remotecontroldrone:textures/blocks/wiring.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -52,7 +52,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/blocks/wiring.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/wiFiTransmitter.png
+[21:39:17] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/wiFiTransmitter.png
 java.io.FileNotFoundException: remotecontroldrone:textures/blocks/wiFiTransmitter.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -77,7 +77,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/blocks/wiFiTransmitte
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/cctvCamera.png
+[21:39:17] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/cctvCamera.png
 java.io.FileNotFoundException: remotecontroldrone:textures/blocks/cctvCamera.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -102,7 +102,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/blocks/cctvCamera.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/chargingStation.png
+[21:39:17] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/chargingStation.png
 java.io.FileNotFoundException: remotecontroldrone:textures/blocks/chargingStation.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -127,7 +127,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/blocks/chargingStatio
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/solarPanel.png
+[21:39:17] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/solarPanel.png
 java.io.FileNotFoundException: remotecontroldrone:textures/blocks/solarPanel.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -152,8 +152,8 @@ java.io.FileNotFoundException: remotecontroldrone:textures/blocks/solarPanel.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/lens.png
+[21:39:18] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/lens.png
 java.io.FileNotFoundException: remotecontroldrone:textures/items/lens.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -178,7 +178,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/lens.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/plugSocket.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/plugSocket.png
 java.io.FileNotFoundException: remotecontroldrone:textures/items/plugSocket.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -203,7 +203,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/plugSocket.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/screen.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/screen.png
 java.io.FileNotFoundException: remotecontroldrone:textures/items/screen.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -228,7 +228,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/screen.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/chargingLoop.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/chargingLoop.png
 java.io.FileNotFoundException: remotecontroldrone:textures/items/chargingLoop.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -253,7 +253,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/chargingLoop.pn
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/battery.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/battery.png
 java.io.FileNotFoundException: remotecontroldrone:textures/items/battery.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -278,8 +278,8 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/battery.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/ironStick.png
-java.io.FileNotFoundException: remotecontroldrone:textures/items/ironStick.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/glassDoor.png
+java.io.FileNotFoundException: remotecontroldrone:textures/items/glassDoor.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -303,7 +303,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/ironStick.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/casing.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/casing.png
 java.io.FileNotFoundException: remotecontroldrone:textures/items/casing.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -328,9 +328,9 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/casing.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:29:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Remote Control Drone
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/lens.png
+[21:39:18] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:39:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Remote Control Drone
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/lens.png
 java.io.FileNotFoundException: remotecontroldrone:textures/items/lens.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -358,7 +358,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/lens.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/plugSocket.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/plugSocket.png
 java.io.FileNotFoundException: remotecontroldrone:textures/items/plugSocket.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -386,7 +386,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/plugSocket.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:24] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/screen.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/screen.png
 java.io.FileNotFoundException: remotecontroldrone:textures/items/screen.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -414,7 +414,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/screen.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:25] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/chargingLoop.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/chargingLoop.png
 java.io.FileNotFoundException: remotecontroldrone:textures/items/chargingLoop.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -442,7 +442,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/chargingLoop.pn
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:25] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/battery.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/battery.png
 java.io.FileNotFoundException: remotecontroldrone:textures/items/battery.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -470,8 +470,8 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/battery.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:25] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/ironStick.png
-java.io.FileNotFoundException: remotecontroldrone:textures/items/ironStick.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/glassDoor.png
+java.io.FileNotFoundException: remotecontroldrone:textures/items/glassDoor.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -498,7 +498,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/ironStick.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:25] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/casing.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/items/casing.png
 java.io.FileNotFoundException: remotecontroldrone:textures/items/casing.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -526,8 +526,8 @@ java.io.FileNotFoundException: remotecontroldrone:textures/items/casing.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:25] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:29:25] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/coalEngine.png
+[21:39:18] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/coalEngine.png
 java.io.FileNotFoundException: remotecontroldrone:textures/blocks/coalEngine.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -555,7 +555,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/blocks/coalEngine.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:25] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/wiring.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/wiring.png
 java.io.FileNotFoundException: remotecontroldrone:textures/blocks/wiring.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -583,7 +583,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/blocks/wiring.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:25] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/wiFiTransmitter.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/wiFiTransmitter.png
 java.io.FileNotFoundException: remotecontroldrone:textures/blocks/wiFiTransmitter.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -611,7 +611,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/blocks/wiFiTransmitte
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:25] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/cctvCamera.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/cctvCamera.png
 java.io.FileNotFoundException: remotecontroldrone:textures/blocks/cctvCamera.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -639,7 +639,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/blocks/cctvCamera.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:25] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/chargingStation.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/chargingStation.png
 java.io.FileNotFoundException: remotecontroldrone:textures/blocks/chargingStation.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -667,7 +667,7 @@ java.io.FileNotFoundException: remotecontroldrone:textures/blocks/chargingStatio
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:25] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/solarPanel.png
+[21:39:18] [Client thread/ERROR]: Using missing texture, unable to load remotecontroldrone:textures/blocks/solarPanel.png
 java.io.FileNotFoundException: remotecontroldrone:textures/blocks/solarPanel.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -695,19 +695,22 @@ java.io.FileNotFoundException: remotecontroldrone:textures/blocks/solarPanel.png
 	at GradleStart.bounce(GradleStart.java:108) [start/:?]
 	at GradleStart.startClient(GradleStart.java:101) [start/:?]
 	at GradleStart.main(GradleStart.java:56) [start/:?]
-[19:29:25] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:29:26] [Sound Library Loader/INFO]: Sound engine started
-[19:29:30] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:29:30] [Server thread/INFO]: Generating keypair
-[19:29:31] [Server thread/INFO]: Preparing start region for level 0
-[19:29:31] [Server thread/INFO]: Changing view distance to 12, from 10
-[19:29:32] [Server thread/INFO]: ForgeDevName[local:E:9dfe629e] logged in with entity id 146 at (-817.2512817615063, 4.0, -300.0755136743103)
-[19:29:32] [Server thread/INFO]: ForgeDevName joined the game
-[19:30:32] [Server thread/INFO]: Saving and pausing game...
-[19:30:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:30:32] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:30:32] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:30:36] [Server thread/INFO]: Saving and pausing game...
-[19:30:36] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:30:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:30:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:39:18] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:39:19] [Sound Library Loader/INFO]: Sound engine started
+[21:39:25] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:39:25] [Server thread/INFO]: Generating keypair
+[21:39:25] [Server thread/INFO]: Preparing start region for level 0
+[21:39:26] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:39:26] [Server thread/INFO]: ForgeDevName[local:E:73307f9b] logged in with entity id 145 at (-815.6758390079135, 7.366774331677926, -296.0423137116687)
+[21:39:26] [Server thread/INFO]: ForgeDevName joined the game
+[21:40:32] [Server thread/INFO]: Saving and pausing game...
+[21:40:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:40:32] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:40:32] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:40:35] [Client thread/INFO]: Stopping!
+[21:40:35] [Server thread/INFO]: Stopping server
+[21:40:35] [Server thread/INFO]: Saving players
+[21:40:35] [Server thread/INFO]: Saving worlds
+[21:40:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:40:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:40:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End

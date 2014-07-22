@@ -1,8 +1,0 @@
-package com.rebelliousuno.remotecontroldrone;
-
-import cpw.mods.fml.common.Mod;
-
-@Mod(modid="remoteControlDrone", name="Remote Control Drone", version="1.7.10-1.0")
-public class remotecontroldrone {
-
-}
